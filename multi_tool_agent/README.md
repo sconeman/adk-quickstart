@@ -27,8 +27,20 @@
 ## 예시
 
 ```sh
+python3 -m venv .venv
+
+
+source .venv/bin/activate
+
+
+pip install google-adk
+
+
 adk run multi_tool_agent
 
+
+deactivate
+```
 
 Log setup complete: /var/folders/q0/s21_cs310_51tn_md1slhfbm0000gn/T/agents_log/agent.20250626_172207.log
 To access latest log: tail -F /var/folders/q0/s21_cs310_51tn_md1slhfbm0000gn/T/agents_log/agent.latest.log
