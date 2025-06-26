@@ -1,30 +1,29 @@
 
 # multi_tool_agent
 
-이 프로젝트는 ADK Quickstart에 따라 만들어졌습니다.
-특정 도시의 현재 시간과 날씨 정보를 제공하는 에이전트(`Agent`)를 구현한 Python 패키지입니다.
+This project was created based on ADK Quickstart.
+It is a Python package that implements an agent (`Agent`) that provides the current time and weather information for a specific city.
 
-## 참고 문서
+## Reference Documents
 
 - ADK Quickstart: https://google.github.io/adk-docs/get-started/quickstart/
 
-## 주요 기능
+## Key Features
 
-- **날씨 정보 조회**: 도시 이름을 입력하면 해당 도시의 현재 날씨 정보를 반환합니다. (현재는 "New York"만 지원)
-- **현재 시간 조회**: 도시 이름을 입력하면 해당 도시의 현재 시간을 반환합니다. (현재는 "New York"만 지원)
+- **Weather Information Query**: Returns the current weather information for a city when its name is entered. (Currently supports only “New York”)
+- **Current Time Query**: Returns the current time for a city when its name is entered. (Currently supports only “New York”)
 
-## 사용 기술
+## Technologies Used
 
 - Python 3
-- [google.adk.agents](https://github.com/google/adk) 라이브러리
-- 표준 라이브러리(`datetime`, `zoneinfo`)
+- [google.adk.agents](https://github.com/google/adk) library
+- Standard library(`datetime`, `zoneinfo`)
 
-## 보안 및 주의사항
+## Security and Precautions
+- Sensitive configuration values should be managed via environment variables and not hardcoded in the code.
+- Always exercise caution when handling user input.
 
-- 민감한 설정 값은 환경 변수로 관리해야 하며, 코드에 직접 입력하지 않습니다.
-- 사용자 입력을 처리할 때는 항상 보안에 유의해야 합니다.
-
-## 예시
+## Example
 
 ```sh
 python3 -m venv .venv
