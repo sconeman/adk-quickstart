@@ -39,9 +39,6 @@ pip install google-adk
 adk run multi_tool_agent
 
 
-deactivate
-```
-
 Log setup complete: /var/folders/q0/s21_cs310_51tn_md1slhfbm0000gn/T/agents_log/agent.20250626_172207.log
 To access latest log: tail -F /var/folders/q0/s21_cs310_51tn_md1slhfbm0000gn/T/agents_log/agent.latest.log
 /Users/scone-dsrv/develop/github/sconeman/adk-quickstart/.venv/lib/python3.13/site-packages/google/adk/cli/cli.py:134: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
@@ -69,4 +66,7 @@ Running agent weather_time_agent, type exit to exit.
 
 [user]: ^D
 Aborted
+
+
+deactivate
 ```
