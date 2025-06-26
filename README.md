@@ -1,5 +1,5 @@
 
-# multi_tool_agent
+# Multi tool agent of ADK's quickstart
 
 This project was created based on ADK Quickstart.
 It is a Python package that implements an agent (`Agent`) that provides the current time and weather information for a specific city.
